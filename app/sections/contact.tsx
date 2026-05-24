@@ -3,9 +3,9 @@
 import { useState, useRef } from "react"
 import { motion, useInView } from "framer-motion"
 import { MapPin, Phone, Mail, Clock, Send, MessageCircle, ExternalLink, Navigation } from "lucide-react"
-import { Card, CardContent } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { cn } from "@/lib/utils"
+import { Card, CardContent } from "../../components/ui/card"
+import { Button } from "../../components/ui/button"
+import { cn } from "../../lib/utils"
 
 const contactInfo = [
   {

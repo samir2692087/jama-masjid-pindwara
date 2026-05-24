@@ -3,8 +3,7 @@
 import { motion, useInView } from "framer-motion"
 import { useRef } from "react"
 import { BookOpen, Users, Heart, Landmark, Sparkles, Shield } from "lucide-react"
-import { Card, CardContent } from "@/components/ui/card"
-
+import { Card, CardContent } from "../../components/ui/card"
 const features = [
   {
     icon: Landmark,
