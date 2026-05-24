@@ -3,10 +3,10 @@
 import { useState, useEffect, useRef } from "react"
 import { motion, useInView } from "framer-motion"
 import { Heart, QrCode, CreditCard, Wallet, TrendingUp, Shield, Check } from "lucide-react"
-import { Card, CardContent } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
-import { cn } from "@/lib/utils"
+import { Card, CardContent } from "../../components/ui/card"
+import { Button } from "../../components/ui/button"
+import { Badge } from "../../components/ui/badge"
+import { cn } from "../../lib/utils"
 
 const donationOptions = [
   { amount: 100, label: "Daily Operations", description: "Support daily mosque maintenance" },
