@@ -93,7 +93,7 @@ export function Navbar() {
             </div>
 
             {/* Right Side */}
-            <div className="flex items-center gap-3">
+            <div className="flex flex-col md:flex-row items-center gap-3">
               {/* Live Time */}
               <div className="hidden md:flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 border border-white/10">
                 <Clock className="w-3.5 h-3.5 text-gold-400" />
