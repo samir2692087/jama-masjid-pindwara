@@ -1,9 +1,9 @@
 import type { Metadata } from "next"
 import "./globals.css"
-import { ThemeProvider } from "@/app/components/theme-provider"
-import { SmoothScroll } from "@/app/components/smooth-scroll"
-import { Navbar } from "@/app/components/navbar"
-import { Footer } from "@/app/components/footer"
+import { ThemeProvider } from "./components/theme-provider"
+import { SmoothScroll } from "./components/smooth-scroll"
+import { Navbar } from "./components/navbar"
+import { Footer } from "./components/footer"
 
 export const metadata: Metadata = {
   title: "Jama Masjid Pindwara | A Place of Peace, Prayer & Community",
