@@ -3,9 +3,9 @@
 import { useState, useEffect, useRef } from "react"
 import { motion, useInView } from "framer-motion"
 import { Clock, Sunrise, Sun, Sunset, Moon, ChevronRight, Sparkles } from "lucide-react"
-import { Card, CardContent } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { cn } from "@/lib/utils"
+import { Card, CardContent } from "../../components/ui/card"
+import { Badge } from "../../components/ui/badge"
+import { cn } from "../../lib/utils"
 
 interface PrayerTime {
   name: string

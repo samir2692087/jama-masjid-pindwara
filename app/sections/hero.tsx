@@ -3,7 +3,7 @@
 import { useRef, useEffect, useState } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
 import { ChevronDown, Compass, Clock, Heart, MapPin } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Button } from "../../components/ui/button"
 
 export function HeroSection() {
   const containerRef = useRef<HTMLDivElement>(null)
