@@ -6,9 +6,9 @@ const HeroSection = dynamic(
   () => import("./sections/hero").then((mod) => mod.HeroSection),
   { ssr: false }
 )
-import { AboutSection } from "@/app/sections/about"
+import { AboutSection } from "./sections/about"
 const PrayerTimesSection = dynamic(
-  () => import("@/app/sections/prayer-times").then((mod) => mod.PrayerTimesSection),
+  () => import("./sections/prayer-times").then((mod) => mod.PrayerTimesSection),
   { ssr: false }
 )
 import { GallerySection } from "./sections/gallery"
