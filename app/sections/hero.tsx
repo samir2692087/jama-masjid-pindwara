@@ -40,7 +40,7 @@ export function HeroSection() {
     <section
       id="hero"
       ref={containerRef}
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-[80vh] md:min-h-screen flex items-center justify-center overflow-hidden"
     >
       {/* Background Layers */}
       <motion.div style={{ scale }} className="absolute inset-0">
