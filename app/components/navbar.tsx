@@ -3,8 +3,8 @@
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X, Moon, Sun, Clock, MapPin } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { cn } from "@/lib/utils"
+import { Button } from "../../components/ui/button"
+import { cn } from "../../lib/utils"
 
 const navLinks = [
   { name: "Home", href: "#hero" },
